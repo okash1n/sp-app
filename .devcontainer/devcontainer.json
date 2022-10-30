@@ -1,0 +1,11 @@
+{
+	"name": "okash1n Codespaces Image",
+	"image": "ghcr.io/okash1n/devcontainers/default:latest",
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"mhutchie.git-graph"
+			]
+		}
+	}
+}
