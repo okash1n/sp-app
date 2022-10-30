@@ -6,8 +6,8 @@ const Home = () => {
 
   return (
     <Layout user={user} loading={isLoading}>
-      <h1>Next.js and Auth0 Example</h1>
-
+      <h1>APP for SSO</h1>
+      <h2>Next.js and Auth0 Example</h2>
       {isLoading && <p>Loading login info...</p>}
 
       {!isLoading && !user && (
