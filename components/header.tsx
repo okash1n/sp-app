@@ -12,17 +12,17 @@ const Header = ({ user, loading }: HeaderProps) => {
         <ul>
           <li>
             <Link href="/">
-              <a>Home</a>
+              Home
             </Link>
           </li>
           <li>
             <Link href="/about">
-              <a>About</a>
+              About
             </Link>
           </li>
           <li>
             <Link href="/advanced/api-profile">
-              <a>API rendered profile (advanced)</a>
+              API rendered profile (advanced)
             </Link>
           </li>
           {!loading &&
@@ -30,12 +30,12 @@ const Header = ({ user, loading }: HeaderProps) => {
               <>
                 <li>
                   <Link href="/profile">
-                    <a>Client rendered profile</a>
+                    Client rendered profile
                   </Link>
                 </li>
                 <li>
                   <Link href="/advanced/ssr-profile">
-                    <a>Server rendered profile (advanced)</a>
+                    Server rendered profile (advanced)
                   </Link>
                 </li>
                 <li>
